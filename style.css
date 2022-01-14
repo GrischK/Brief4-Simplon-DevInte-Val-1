@@ -2,17 +2,19 @@ body{
     width: 100%;
 }
 
-.nav_header ul{
+.nav_header ul, .nav_menu ul{
     list-style: none;
     padding-left: 0px;
 }
 
 .nav_menu{
     display: flex;
+    list-style: none;
+    padding-left: 0px;
 }
 
 .nav_header{
-    width: 300px;
+    width: 290px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -49,6 +51,8 @@ header{
 
 h1{
     font-family:'Italianno', serif;
+    font-size: 5em;
+    margin: 0px;
 }
 
 ul, h2{
@@ -70,7 +74,6 @@ p{
 .item_card{
     height: 80%;
     width: 80%;
-    background-color: red;
 }
 
 .contain{
@@ -90,3 +93,32 @@ p{
     text-align: justify;
 }
 
+footer{
+margin: 50px 0px 0px 300px;
+display: flex;
+background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
+justify-content: space-between;
+}
+
+footer > *{
+    width: 400px;
+}
+
+footer p{
+    text-align: justify;
+}
+
+footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
