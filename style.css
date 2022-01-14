@@ -34,3 +34,16 @@ header{
     height: 400px;
     object-fit: cover;
 }
+
+
+h1{
+    font-family:'Italianno', serif;
+}
+
+ul, h2{
+    font-family: 'Amiri', serif;
+}
+
+p{
+    font-family: 'Maitree', serif;
+}
