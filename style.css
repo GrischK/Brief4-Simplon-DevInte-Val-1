@@ -53,6 +53,7 @@ h1{
     font-family:'Italianno', serif;
     font-size: 5em;
     margin: 0px;
+    text-shadow: 1px 1px 3px grey;
 }
 
 ul, h2{
@@ -82,7 +83,8 @@ p{
     width: 100%;}
 
 .item_block{
-    border: 1px solid black;
+    border: 0.8px solid gray;
+    box-shadow: 1px 1px 2px gray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,10 +93,11 @@ p{
 
 #header_block p{
     text-align: justify;
+    margin: 10px;
 }
 
 footer{
-margin: 50px 0px 0px 300px;
+margin: 150px 0px 0px 300px;
 display: flex;
 background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
 justify-content: space-between;
@@ -121,4 +124,53 @@ footer:last-child{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.item_block card{
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    font-family: 'Maitree', serif;
+    font-size: 12px;
+    font-weight: bold;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.compo_block{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.first_card{
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.price{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+.price_dark{
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+#main_section_items h1{
+    margin: 50px 0px 50px 48%;
+}
+
+#cart{
+    height: 35px;
+    width: 35px;
+    margin-left: 95%;
 }
