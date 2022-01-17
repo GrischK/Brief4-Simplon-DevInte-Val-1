@@ -312,11 +312,11 @@ a:link{
 
 #about_grid{
     display: grid;
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(2, 600px);
     grid-row: repeat(4, 300px);
     margin-left: 300px;
     gap:10px;
-    width: 100%;
+    width: 80%;
 }
 
 #about_grid_block1, #about_grid_block2{
