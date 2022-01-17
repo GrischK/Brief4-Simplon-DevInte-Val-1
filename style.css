@@ -101,7 +101,7 @@ p{
 
 .contain{
     object-fit: cover;
-    height: 100%;
+    max-height: 100%;
     width: 100%;}
 
 .item_block{
@@ -306,8 +306,38 @@ a:link{
     text-decoration: none;
 }
 
-main h1{
+#about_main_h1{
     margin: 50px 0px 50px 48%;
+}
+
+#about_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-row: repeat(4, 300px);
+    margin-left: 300px;
+    gap:10px;
+    width: 100%;
+}
+
+#about_grid_block1, #about_grid_block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about_grid_block1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#about_grid_block2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-items: center;
+}
+
+#about_grid_block2 p{
+    text-align: justify;
 }
 
 @media screen and (max-width: 1080px){
