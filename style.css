@@ -246,7 +246,7 @@ footer section{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    margin: 300px;
+    margin-left: 300px;
     background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
     gap:10px;
     padding: 10px;
@@ -271,6 +271,7 @@ footer section{
 }
 
 #article_block2 p{
+    text-align: justify;
     margin-top: 0px;
 }
 
@@ -299,6 +300,14 @@ footer section{
 #article_block6{
     grid-column: 4/5;
     grid-row: 3/4;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+main h1{
+    margin: 50px 0px 50px 48%;
 }
 
 @media screen and (max-width: 1080px){
