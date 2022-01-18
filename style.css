@@ -540,6 +540,34 @@ input{
     footer #footer_grid{
         display: none;
     }
+
+    #about_grid{
+        display: flex;
+        flex-direction: column;
+        width: 101%;
+        margin-top: 10px;
+        margin-left: 17.3%;
+    }
+
+    #about_grid p{
+        margin: 10px 10px 10px 10px;
+    }
+
+    .tailor{
+        width: 500px;
+    }
+
+    #about_grid_block3{
+        margin-top: 50px;
+    }
+
+    #about_grid_block4{
+        margin-top: 240px;
+    }
+
+    .about_marg10{
+        margin-top: 150px;
+    }
 }
 
 @media screen and (max-width: 960px){
