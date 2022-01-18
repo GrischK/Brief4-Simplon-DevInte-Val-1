@@ -408,6 +408,10 @@ input{
     margin-right: 10px;
 }
 
+#lab{
+    display: none;
+}
+
 @media screen and (max-width: 1080px){
     #header_block{
         width: 150%;
