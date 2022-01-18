@@ -354,8 +354,9 @@ a:link{
 
 #about_grid_block4{
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-top: 85px;
+    margin-right: 10px;
 }
 
 .contact{
@@ -373,6 +374,7 @@ a:link{
 #ch{
     width: 100px;
     position: relative;
+    z-index: 1;
 }
 
 input{
@@ -383,20 +385,42 @@ input{
     margin-left: 10px;
 }
 
+#p_block2{
+    margin-top: 85px;
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 1080px){
     #header_block{
-        width: 80%;
+        width: 150%;
+        position: absolute;
+        margin-left: 26%;
     }
 
     input{
         display: block;
     }
 
+    #logoh1 h1{
+    font-size: 70px;
+    margin-top: 100px;
+    }
+
+    #logo{
+        width: 200px;
+    }
+
+    #logoh1{
+        display: flex;
+        flex-direction: column;
+    }
 
     .nav_header{
         position: fixed;
-        height: 50%;
+        height: 100%;
+        width: 215px;
         transform: translate(-1000px, 0);
+        margin-left: -15px;
     }
 
     #ch:checked+nav{
@@ -414,7 +438,7 @@ input{
         position: absolute;
         color: white;
         font-weight: bold;
-        margin-left: 55%;
+        margin-left: 45%;
     }
     
     footer{
@@ -433,6 +457,18 @@ input{
         margin-left: 5%;
     }
 
+    header .nav_menu img{
+        width: 50px;
+    }
+
+    .mapouter{
+        display: none;
+    }
+
+    header #menu li{
+        margin-top: 150px ;
+    }
+
     #footer_grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -440,6 +476,21 @@ input{
         gap: 10px;
         margin: 10px;
       }
+
+    main{
+        margin-top: 450px;
+        width: 150%;
+    }
+
+    #main_section_items{
+        margin-left: 10px;
+        width: 110%;
+    }
+
+    header .nav_menu{
+        display: list-item;
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 960px){
@@ -460,18 +511,25 @@ input{
         position: absolute;
         color: white;
         font-weight: bold;
-        margin-left: 55%;
+        margin-left: 45%;
+    }
+
+    .price_dark {
+        position: absolute;
+        color: black;
+        font-weight: bold;
+        margin-left: 45%;
     }
     
     footer{
-        margin: 150px 0px 0px 300px;
+        margin: 150px 100px 0px 100px;
         display: flex;
         flex-direction: column;
         background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
         justify-content: space-between;
         height: 730px;
         align-items: center;
-        width: 80%;
+        width: 155%;
         }
 
     #footer_grid_pic2, #footer_grid_pic3, #footer_grid_pic4 {
@@ -485,5 +543,5 @@ input{
         grid-template-columns: repeat(3 200px);
         gap: 10px;
         margin: 10px;
-      }
+    }
 }
