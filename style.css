@@ -424,6 +424,16 @@ input{
     display: none;
 }
 
+#price_button p{
+    font-weight: bold;
+    width: 100px;
+}
+
+#price_button {
+    display: flex;
+    justify-content: space-around;
+}
+
 @media screen and (max-width: 1080px){
     #header_block{
         width: 150%;
