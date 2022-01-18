@@ -141,7 +141,21 @@ footer section{
     width: 300px;
 }
 
-.item_block card{
+.first_card{
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    font-family: 'Maitree', serif;
+    font-size: 12px;
+    font-weight: bold;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.second_card{
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
     font-family: 'Maitree', serif;
     font-size: 12px;
@@ -281,6 +295,10 @@ footer section{
     height: 50px;
     background: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
     border-radius:10px;
+    font-family: 'Maitree', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
 
 #article_block3{
@@ -397,17 +415,30 @@ input{
         margin-left: 26%;
     }
 
-    input{
+    #lab{
+        width: 30px;
+        height: 30px;
+        margin: 4px;
         display: block;
+        z-index: 1;
+    }
+
+    #lab img{
+        width: 200px;
+        position: fixed;
+    }
+
+    input{
+        display: none;
     }
 
     #logoh1 h1{
     font-size: 70px;
-    margin-top: 100px;
+    margin-top: 200px;
     }
 
     #logo{
-        width: 200px;
+    display: none;
     }
 
     #logoh1{
