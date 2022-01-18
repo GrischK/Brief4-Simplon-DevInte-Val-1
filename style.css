@@ -30,7 +30,7 @@ body{
 }
 
 .nav_header{
-    width: 290px;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +42,7 @@ body{
 }
 
 #header_block{
-    margin-left: 300px;
+    margin-left: 20.7%;
     background-image: url(Ressources/header_pic.jpg);
     width: 100%;
     background-size: 100%;
@@ -77,16 +77,17 @@ h1{
     text-shadow: 1px 1px 3px grey;
 }
 
-ul, h2{
+ul, h2, h3{
     font-family: 'Amiri', serif;
 }
 
 p{
     font-family: 'Maitree', serif;
+    text-align: justify;
 }
 
 #items_grid{
-    margin-left: 310px;
+    margin-left: 21%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -101,7 +102,7 @@ p{
 
 .contain{
     object-fit: cover;
-    max-height: 100%;
+    height: 100%;
     width: 100%;}
 
 .item_block{
@@ -119,11 +120,11 @@ p{
 }
 
 footer{
-margin: 150px 0px 0px 300px;
+margin: 150px 0px 0px 20.6%;
 display: flex;
 background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
 justify-content: space-between;
-height: 810px;
+height: 735px;
 }
 
 footer p{
@@ -226,7 +227,7 @@ footer section{
 }
 
 #footer_grid_pic1 img{
-    height: 733px;
+    height: 685px;
     width: 400px;
 }
 
@@ -246,7 +247,7 @@ footer section{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    margin-left: 300px;
+    margin-left: 20.6%;
     background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
     gap:10px;
     padding: 10px;
@@ -270,7 +271,7 @@ footer section{
     width: 400px;
 }
 
-#article_block2 p{
+#article_block2 p, #about_grid_block4 p{
     text-align: justify;
     margin-top: 0px;
 }
@@ -312,14 +313,14 @@ a:link{
 
 #about_grid{
     display: grid;
-    grid-template-columns: repeat(2, 600px);
+    grid-template-columns: repeat(2, 598px);
     grid-row: repeat(4, 300px);
-    margin-left: 300px;
+    margin: 150px 0px 0px 20.6%;
     gap:10px;
-    width: 80%;
+    width: 78%;
 }
 
-#about_grid_block1, #about_grid_block2{
+#about_grid_block2, #about_grid_block1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -340,15 +341,66 @@ a:link{
     text-align: justify;
 }
 
+.tailor{
+    width: 200px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#tailor_pics{
+    display: flex;
+    flex-direction: column;
+}
+
+#about_grid_block4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    text-align: justify;
+    padding:5px;
+    width:190px;
+}
+
+.nav_menu li{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#ch{
+    width: 100px;
+    position: relative;
+}
+
+input{
+    display: none;
+}
+
+.about_marg10{
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 1080px){
     #header_block{
         width: 80%;
+    }
+
+    input{
+        display: block;
     }
 
 
     .nav_header{
         position: fixed;
         height: 50%;
+        transform: translate(-1000px, 0);
+    }
+
+    #ch:checked+nav{
+        transform: translate(0, 0);
     }
 
     #items_grid {
