@@ -481,6 +481,21 @@ main h1{
     transition: 1s ease-in-out;
 }
 
+#contact_us_p{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20.6%;
+}
+
+#contact_us_p p{
+    width: 800px;
+    margin-left: 10px;
+}
+
+#contact_us_p img{
+    width: 300px;
+}
+
 
 @media screen and (max-width: 1080px){
     #header_block{
