@@ -199,8 +199,8 @@ footer section{
 }
 
 #cart{
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     margin-left: 95%;
 }
 
@@ -434,6 +434,54 @@ input{
     justify-content: space-around;
 }
 
+#cart:hover{
+    width: 35px;
+    height: 35px;
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+main h1:hover{
+    font-weight: bolder;
+}
+
+main h1{
+    display: block;
+}
+
+.price:hover{
+    opacity: 0.8;
+    font-weight: bolder;
+}
+
+.price_dark:hover{
+    opacity: 0.8;
+    font-weight: bolder;
+}
+
+#menu a{
+    color: black;
+}
+
+#menu a:hover{
+    opacity: .5;
+}
+
+#menu a:visited{
+    color: black;
+}
+
+#logo:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
+
+
 @media screen and (max-width: 1080px){
     #header_block{
         width: 150%;
@@ -474,7 +522,7 @@ input{
     }
 
     #logo{
-    display: none;
+        display: none;
     }
 
     #logoh1{
