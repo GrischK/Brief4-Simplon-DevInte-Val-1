@@ -1,162 +1,231 @@
-<!DOCTYPE html  >
+<!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Costume</title>
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="Ressources/tab_icon.png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Maitree:wght@300&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <header>
-            <input type="checkbox" id="ch"/>
-            <nav class="nav_header">
-                <div id="logoh1">
-                    <a href="Accueil_boutique.html"><img src="Ressources/logo.png" alt="logo" id="logo"/></a>
-                    <h1>
-                        Ducsman
-                    </h1>
-                </div>
-                <ul id="menu">
-                    <li>
-                        <a href="Accueil_boutique.html">Boutique</a>
-                    </li>
-                    <li>
-                        <a href="About.html">A propos</a>
-                    </li>
-                    <li>
-                        Contact
-                    </li>
-                    <li>
-                        SAV
-                    </li>
-                </ul>
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=passage%20de%20la%20canop%C3%A9e,%20halles%20de%20paris&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:200px;width:200px;}</style><a href="https://www.embedgooglemap.net">embed maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:200px;}</style>
-                    </div>
-                </div>
-                <ul class="nav_menu">
-                    <li>
-                        <img src="Ressources/facebook_icon.png" alt="facebook_icon">
-                    </li>
-                    <li>
-                        <img src="Ressources/twitter_icon.png" alt="twitter_icon">
-                    </li>
-                    <li>
-                        <img src="Ressources/insta_icon.png" alt="insta_icon">
-                    </li>
-                </ul>
-            </nav>
-            <div id="header_block">
-                <img src="Ressources/cart.png" alt="cart" id="cart">
-                <h2>
-                    Sapés comme jamais
-                </h2>
-                <div>
-                    <h1>
-                        Bienvenue<br>
-                        dans votre boutique Ducsman
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ad sequi placeat ipsam eaque culpa numquam unde, non quam dicta voluptates perspiciatis minima quia. Harum laboriosam dignissimos aliquid sunt assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    </p>
-                </div>
-            </div>
-        </header>
-        <main>
-            <h1 id="about_main_h1">Le costume Classe</h1>
-            <section id="article_grid">
-                <div id="article_block1">
-                    <img src="Ressources/item1.jpg" alt="suit" class="contain">
-                </div>
-                <div id="article_block2">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ad sequi placeat ipsam eaque culpa numquam unde, non quam dicta voluptates perspiciatis minima quia. Harum laboriosam dignissimos aliquid sunt assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    </p>
-                    <ul>
-                        <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        </li>
-                        <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        </li>
-                        <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        </li>
-                        <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        </li>
-                    </ul>
-                <button>Ajouter au panier</button>
-                </div>
-                <div id="article_block3">
-                    <img src="Ressources/item1.jpg" alt="suit" class="contain">
-                </div>
-                <div id="article_block4">
-                    <img src="Ressources/item1.jpg" alt="suit" class="contain">
-                </div>
-                <div id="article_block5">
-                    <img src="Ressources/item1.jpg" alt="suit" class="contain">
-                </div>
-                <div id="article_block6">
-                    <img src="Ressources/item1.jpg" alt="suit" class="contain">
-                </div>
-            </section>
-        </main>
-        <footer>
-            <article id="footer_grid">
-                <div id="footer_grid_pic1">
-                    <img src="Ressources/shop_pic2.jpg">
-                </div>
-                <div id="footer_grid_pic2">
-                    <img src="Ressources/check_hands_pic.jpg">      
-                </div>
-                <div id="footer_grid_pic3">
-                    <img src="Ressources/measurement_pic.jpg">
-                </div>
-                <div id="footer_grid_pic4">
-                    <img src="Ressources/tools_pic.jpg">
-                </div> 
-            </article>
-            <section>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Costume</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Ressources/tab_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Maitree:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="ch" />
+        <nav class="nav_header">
+            <div id="logoh1">
+                <a href="Accueil_boutique.html"><img src="Ressources/logo.png" alt="logo" class="logo" /></a>
                 <h1>
                     Ducsman
                 </h1>
-                <h2>
-                    Sapés comme jamais
-                </h2>
+            </div>
+            <ul id="menu">
+                <li>
+                    <a href="Accueil_boutique.html">Boutique</a>
+                </li>
+                <li>
+                    <a href="About.html">A propos</a>
+                </li>
+                <li>
+                    Contact
+                </li>
+                <li>
+                    SAV
+                </li>
+            </ul>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="200" height="200" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=passage%20de%20la%20canop%C3%A9e,%20halles%20de%20paris&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://123movies-to.org">123movies</a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 200px;
+                            width: 200px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">embed maps on website</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 200px;
+                            width: 200px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <ul class="nav_menu">
+                <li>
+                    <img src="Ressources/facebook_icon.png" alt="facebook_icon">
+                </li>
+                <li>
+                    <img src="Ressources/twitter_icon.png" alt="twitter_icon">
+                </li>
+                <li>
+                    <img src="Ressources/insta_icon.png" alt="insta_icon">
+                </li>
+            </ul>
+        </nav>
+        <div id="header_block">
+            <img src="Ressources/cart.png" alt="cart" id="cart">
+            <h2>
+                Sapés comme jamais
+            </h2>
+            <div>
+                <h1>
+                    Bienvenue<br>
+                    dans votre boutique Ducsman
+                </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium
+                    distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed
+                    consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Corporis ad sequi placeat ipsam eaque culpa numquam unde, non quam dicta voluptates perspiciatis
+                    minima quia. Harum laboriosam dignissimos aliquid sunt assumenda! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
                 </p>
-            </section>
-            <article id="footer_nav">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </p> 
-                    <div>
-                        <img src="Ressources/logo.png" alt="logo" id="logo">
-                    </div>
-                    <ul class="nav_menu">
-                        <li>
-                            <img src="Ressources/facebook_icon.png" alt="facebook_icon">
-                        </li>
-                        <li>
-                            <img src="Ressources/twitter_icon.png" alt="twitter_icon">
-                        </li>
-                        <li>
-                            <img src="Ressources/insta_icon.png" alt="insta_icon">
-                        </li>
-                    </ul>            
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 id="about_main_h1">Le costume Classe</h1>
+        <section id="article_grid">
+            <div id="article_block1">
+                <img src="Ressources/image-brief4/dolce-avt.webp" alt="suit" class="contain">
+            </div>
+            <div id="article_block2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium
+                    distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed
+                    consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Corporis ad sequi placeat ipsam eaque culpa numquam unde, non quam dicta voluptates perspiciatis
+                    minima quia. Harum laboriosam dignissimos aliquid sunt assumenda! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                </p>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+              <div class="button"> 
+                  <button>Ajouter au panier</button>
+                 <button>Customiser</button>
+                </div>
+            </div>
+            <div id="article_block3">
+                <img src="Ressources/image-brief4/dolce-coté.webp" alt="suit" class="contain">
+            </div>
+            <div id="article_block4">
+                <img src="Ressources/image-brief4/dolce-arr.webp" alt="suit" class="contain">
+            </div>
+            <div id="article_block5">
+                <img src="Ressources/image-brief4/dolce-seul.webp" alt="suit" class="contain">
+            </div>
+            <div id="article_block6">
+                <img src="Ressources/image-brief4/dolcé-veston.jpg" alt="suit" class="contain">
+            </div>
+            <div>
+        </section>
+        
+        
+        <section>
+            <article id="love">
+             <h2>Vous pourriez aimer </h2>
             </article>
-        </footer>
-    </body>
+            <div class="also">
+               
+                <div id="article_block7">
+                    <img src="Ressources/image-brief4/dolce-seul.webp" alt="suit" class="contain">
+                </div>
+                <div id="article_block8">
+                    <img src="Ressources/image-brief4/dolcé-veston.jpg" alt="suit" class="contain">
+                </div>
+                <div id="article_block9">
+                    <img src="Ressources/image-brief4/dolce-seul.webp" alt="suit" class="contain">
+                </div>
+                <div id="article_block10">
+                    <img src="Ressources/image-brief4/dolcé-veston.jpg" alt="suit" class="contain">
+                </div>
+                <div id="article_block11">
+                    <img src="Ressources/image-brief4/dolce-seul.webp"alt ="suit" class="contain">
+                </div>
+                <div id="article_block12">
+                    <img src="Ressources/image-brief4/dolcé-veston.jpg" alt="suit" class="contain">
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <article id="footer_grid">
+            <div id="footer_grid_pic1">
+                <img src="Ressources/shop_pic2.jpg">
+            </div>
+            <div id="footer_grid_pic2">
+                <img src="Ressources/check_hands_pic.jpg">
+            </div>
+            <div id="footer_grid_pic3">
+                <img src="Ressources/measurement_pic.jpg">
+            </div>
+            <div id="footer_grid_pic4">
+                <img src="Ressources/tools_pic.jpg">
+            </div>
+        </article>
+        <section>
+            <h1>
+                Ducsman
+            </h1>
+            <h2>
+                Sapés comme jamais
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto
+            </p>
+        </section>
+        <article id="footer_nav">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium
+                distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed
+                consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div>
+                <img src="Ressources/logo.png" alt="logo" class="logo">
+            </div>
+            <ul class="nav_menu">
+                <li>
+                    <img src="Ressources/facebook_icon.png" alt="facebook_icon">
+                </li>
+                <li>
+                    <img src="Ressources/twitter_icon.png" alt="twitter_icon">
+                </li>
+                <li>
+                    <img src="Ressources/insta_icon.png" alt="insta_icon">
+                </li>
+            </ul>
+        </article>
+    </footer>
+</body>
+
 </html>
