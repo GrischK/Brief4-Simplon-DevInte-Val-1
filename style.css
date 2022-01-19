@@ -569,11 +569,6 @@ main h1{
     margin-left: 20.6%;
 }
 
-#section_sav1{
-    margin-left: 20.6%;
-    display: flex;
-}
-
 #form_contact{
     height: 300px;
 }
@@ -617,10 +612,11 @@ main h1{
 }
 
 form{
-    width: 500px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 25%;
 }
 
 form input{
@@ -629,7 +625,7 @@ form input{
 
 form textarea{
     width: 100%;
-    height: 600px;
+    height: 800px;
     resize: none;
 }
 
@@ -637,9 +633,11 @@ form textarea{
     width: 100px;
 }
 
-#sav_h1_block{
+.sav_h1_block{
     display: flex;
     flex-direction:column;
+    align-items: center;
+    margin-top: 150px;
 }
 
 #sav_h1_block img{
