@@ -496,6 +496,38 @@ main h1{
     width: 300px;
 }
 
+#contact_us_ul ul{
+    display: flex;
+    margin-left: 20.6%;
+    list-style: none;
+    width: auto;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact_us_ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.contact_icons_ul{
+    width: 64px;
+}
+
+#SAV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    margin-left: 20.6%;
+}
+
+.h1_contact_page{
+    margin: 50px 0px 50px 48%;
+}
 
 @media screen and (max-width: 1080px){
     #header_block{
