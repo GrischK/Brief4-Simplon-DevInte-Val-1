@@ -63,8 +63,7 @@ header{
 }
 
 #header_block h2{
-    margin-top: -50px;
-    margin-left: 50px;
+    margin-top: -55px;
 }
 
 #header_pic{
@@ -81,7 +80,7 @@ h1{
     text-shadow: 1px 1px 3px grey;
 }
 
-ul, h2{
+ul, h2, h3{
     font-family: 'Amiri', serif;
 }
 
@@ -202,8 +201,8 @@ footer section{
 }
 
 #cart{
-    height: 30px;
-    width: 30px;
+    height: 55px;
+    width: 55px;
     margin-left: 95%;
 }
 
@@ -497,11 +496,9 @@ a:link{
 }
 
 #cart:hover{
-    width: 35px;
-    height: 35px;
-    transform: rotate(360deg);
     transition: 1s ease-in-out;
     cursor: pointer;
+    transform: rotateY(360deg);
 }
 
 a:hover{
@@ -930,7 +927,7 @@ form textarea{
         flex-direction: row;
         background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
         justify-content: space-around;
-        height: 630px;
+        height: 680px;
         align-items: center;
         width: 125%;
         }
@@ -946,5 +943,52 @@ form textarea{
         grid-template-columns: repeat(3 200px);
         gap: 10px;
         margin: 10px;
+    }
+
+    #love h2{
+        margin-left: 26%;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h2, h3{
+        font-size: 30px;
+    }
+
+    .contact{
+        text-align: center;
+    }
+
+    #contact_us_ul ul{
+    flex-direction: column;
+    }
+
+    #contact_us_ul li{
+    margin-bottom: 40px;
+    }
+
+    #contact_us_ul img{
+    width: 120px;
+    }
+
+    #finger{
+    margin-left: 57%;
+    }
+
+    #section_sav1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 850px;
+    }
+
+    #franck p {
+        text-align: center;
+    }
+
+    form{
+        margin-left: 19%;
     }
 }
