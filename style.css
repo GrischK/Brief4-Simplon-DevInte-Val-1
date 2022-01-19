@@ -717,6 +717,11 @@ form textarea{
     text-align: justify;
 }
 
+.also div{
+    border: 0.8px solid gray;
+    box-shadow: 1px 1px 2px gray;
+}
+
 @media screen and (max-width: 1080px){
     #header_block{
         width: 150%;
@@ -874,6 +879,14 @@ form textarea{
 
     .about_marg10{
         margin-top: 150px;
+    }
+
+    #article_block2 button{
+        width: 150px;
+    }
+
+    .button{
+        justify-content: space-around;
     }
 }
 
