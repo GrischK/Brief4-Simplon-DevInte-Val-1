@@ -590,7 +590,7 @@ main h1{
 }
 
 #map_halles{
-    margin: 50px auto auto 42%;
+    margin: 10px auto auto 42%;
     width: 450px;
     border: 1px solid black;
     border-radius: 50%;
@@ -606,10 +606,8 @@ main h1{
 }
 
 #finger{
-    margin: 100px auto 50px 55%;
-    animation: pulse 1.3s infinite;
-    box-shadow: 0 0 0 0 black;
-    border-radius: 50%;
+    margin: 10px auto 0px 55%;
+    width: 100px;
 }
 
 #button, label{
@@ -789,8 +787,8 @@ form textarea{
 
     #items_grid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(9, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         width: 79%;
       }
 
@@ -807,10 +805,15 @@ form textarea{
         flex-direction: row;
         background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
         justify-content: space-around;
-        height: 630px;
+        height: 680px;
         align-items: center;
-        width: 80%;
+        width: 130%;
         }
+
+    #article_grid{
+        width: 900px;
+        margin-left: 350px;
+    }
 
     #footer_grid_pic2, #footer_grid_pic3, #footer_grid_pic4 {
         display: none;
@@ -890,6 +893,77 @@ form textarea{
 
     .button{
         justify-content: space-around;
+    }   
+    
+    #love h2{
+        margin-left: 26%;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h2, h3{
+        font-size: 30px;
+    }
+
+    .contact{
+        text-align: center;
+    }
+
+    #contact_us_ul ul{
+    flex-direction: column;
+    }
+
+    #contact_us_ul li{
+    margin-bottom: 40px;
+    }
+
+    #contact_us_ul img{
+    width: 120px;
+    }
+
+    #finger{
+    margin-left: 57%;
+    }
+
+    #section_sav1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 850px;
+    }
+
+    #section_franck{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 20.6%;
+        margin-bottom: 400px;
+    }
+
+    #section_franck p{
+        text-align: justify;
+    }
+
+    #franck p {
+        text-align: center;
+    }
+
+    form{
+        margin-left: 19%;
+    }
+
+    #contact_us_p{
+        margin-left: 350px;
+    }
+
+    #tailor_sav{
+        width: 600px;
+        height: 600px;
     }
 }
 
