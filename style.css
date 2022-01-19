@@ -482,6 +482,7 @@ main h1{
 }
 
 #contact_us_p{
+    background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
     display: flex;
     justify-content: space-between;
     margin-left: 20.6%;
@@ -527,6 +528,50 @@ main h1{
 
 .h1_contact_page{
     margin: 50px 0px 50px 48%;
+}
+
+#map_halles{
+    margin: 50px auto auto 42%;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#where_to_find{
+    background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
+    margin-left: 20.6%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#finger{
+    margin: 100px auto 50px 55%;
+    animation: pulse 1.3s infinite;
+    box-shadow: 0 0 0 0 black;
+    border-radius: 50%;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 5px rgb(185, 185, 185);
+    }
+}
+
+#h2_header{
+    animation: apparition 0.8s ease-out;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 @media screen and (max-width: 1080px){
