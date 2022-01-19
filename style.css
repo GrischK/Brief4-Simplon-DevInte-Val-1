@@ -328,12 +328,12 @@ footer section{
     margin: 30px auto;
 }
 .button{
-        display: grid;
-        width: 400px;
-        grid-template-columns: 120px 120px ;
-        align-items: start;
-        justify-content: space-between;
-        margin-bottom: 30px;
+    display: grid;
+    width: 400px;
+    grid-template-columns: 120px 120px ;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 .also{
     display: grid;
@@ -707,6 +707,14 @@ form textarea{
 
 #sav_h1_block img{
     width: 64px;
+}
+
+.bold_p{
+    font-weight: bold;
+}
+
+.section_sav p{
+    text-align: justify;
 }
 
 @media screen and (max-width: 1080px){
