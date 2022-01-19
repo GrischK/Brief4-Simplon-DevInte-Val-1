@@ -1,0 +1,182 @@
+<!DOCTYPE html  >
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ducsman</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="Ressources/tab_icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Maitree:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <label for="ch" id="lab"><img src="Ressources/logo.png" alt="logo"></label>
+            <input type="checkbox" id="ch">
+            <nav class="nav_header">
+                <div id="logoh1">
+                    <a href="Accueil_boutique.html"><img src="Ressources/logo.png" alt="logo" id="logo"/></a>
+                    <h1>
+                        Ducsman
+                    </h1>
+                </div>
+                <ul id="menu">
+                    <li>
+                        <a href="Accueil_boutique.html"><img src="Ressources/shop_icon.png" alt="shop" class="menu_icon"></a>
+                        <a href="Accueil_boutique.html">Boutique</a>
+                    </li>
+                    <li>
+                        <a href="About.html"><img src="Ressources/about_icon.png" alt="about" class="menu_icon"></a>
+                        <a href="About.html">A propos</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html"><img src="Ressources/contact_icon.png" alt="contact" class="menu_icon"></a>
+                        <a href="Contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="sav.html"><img src="Ressources/sav_icon.png" alt="sav" class="menu_icon"></a>
+                        <a href="sav.html">SAV</a>
+                    </li>
+                </ul>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=passage%20de%20la%20canop%C3%A9e,%20halles%20de%20paris&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe><a href="https://123movies-to.org">123movies</a><br><a href="https://www.embedgooglemap.net">embed maps on website</a>
+                    </div>
+                </div>
+                <ul class="nav_menu">
+                    <li>
+                        <img src="Ressources/facebook_icon.png" alt="facebook_icon">
+                    </li>
+                    <li>
+                        <img src="Ressources/twitter_icon.png" alt="twitter_icon">
+                    </li>
+                    <li>
+                        <img src="Ressources/insta_icon.png" alt="insta_icon">
+                    </li>
+                </ul>
+            </nav>
+            <div id="header_block">
+                <img src="Ressources/cart.png" alt="cart" id="cart">
+                <h2 id="h2_header">
+                    Sapés comme jamais
+                </h2>
+                <div>
+                    <h1>
+                        Bienvenue<br>
+                        dans votre boutique Ducsman
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ad sequi placeat ipsam eaque culpa numquam unde, non quam dicta voluptates perspiciatis minima quia. Harum laboriosam dignissimos aliquid sunt assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h1 class="h1_sav_page">
+                Un problème ? 
+            </h1>
+            <section id="section_sav1">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ad sequi placeat ipsam eaque culpa numquam unde, non quam dicta voluptates perspiciatis minima quia. Harum laboriosam dignissimos aliquid sunt assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident numquam ut, ratione non recusandae consequatur cumque veritatis hic animi quibusdam itaque cum aut saepe asperiores cupiditate, accusantium obcaecati illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusamus recusandae porro quis esse eaque sapiente praesentium, ullam tenetur dolorem tempora vero maiores id prferendis laboriosam at nobis excepturi repudiandae.
+                </p>
+                <div id="franck">
+                    <img src="Ressources/tailor3.png" alt="tailor" id="tailor_sav">
+                    <p>
+                        Franck notre spécialiste répond à vos quesstions et résoud tous vos problèmes.
+                    </p>
+                </div>
+            </section>
+            <section class="section_sav">
+                <div id="sav_h1_block">
+                    <img src="Ressources/sav_icon.png" alt="sav">
+                    <h1>
+                        Nous répondons à vos questions...
+                    </h1>
+                </div>
+                <form method="post" id="form_contact">
+                    <label for="username">Nom</label>
+                    <input type="text" id="userfirstname" name="name" required="required">
+                    <label for="nameusername">Prénom</label>
+                    <input type="text" id="nameuserfirstname" name="firstname" required="required">
+                    <label for="mail">Adresse email</label>
+                    <input type="email" id="mail" name="mail" required="required" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}">
+                    <label for="msg">Message</label>
+                    <textarea name="msg" id="msg" required="required"></textarea>
+                    <input type="submit" value="Envoyer" id="button" onClick="confirmsend()">
+                </form>
+                <script>
+                    function confirmsend() {
+                      alert("Squedrong a bien reçu votre message");
+                      {
+                        formulaire.submit();
+                      }
+                    }
+                  </script>
+            </section>
+            <section class="section_sav">
+                <img src="Ressources/about_icon.png" alt="about">
+                <h1 class="h1_sav_page">
+                    Qestions fréquentes
+                </h1>
+                <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum  ?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ad sequi placeat ipsam eaque culpa numquam unde, non quam dicta voluptates 
+                </p>
+            </section>
+        </main>
+        <footer>
+            <article id="footer_grid">
+                <div id="footer_grid_pic1">
+                    <img src="Ressources/shop_pic2.jpg" alt="shop">
+                </div>
+                <div id="footer_grid_pic2">
+                    <img src="Ressources/check_hands_pic.jpg" alt="check_hands">      
+                </div>
+                <div id="footer_grid_pic3">
+                    <img src="Ressources/measurement_pic.jpg" alt="measures">
+                </div>
+                <div id="footer_grid_pic4">
+                    <img src="Ressources/tools_pic.jpg" alt="tools">
+                </div> 
+            </article>
+            <section>
+                <h1>
+                    Ducsman
+                </h1>
+                <h2>
+                    Sapés comme jamais
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto 
+                </p>
+            </section>
+            <article id="footer_nav">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti eos, iusto praesentium distinctio commodi voluptatum qui accusantium delectus provident aspernatur, minima porro iste sed consequatur. Animi sequi magni esse! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p> 
+                    <div>
+                        <img src="Ressources/logo.png" alt="logo">
+                    </div>
+                    <ul class="nav_menu">
+                        <li>
+                            <img src="Ressources/facebook_icon.png" alt="facebook_icon">
+                        </li>
+                        <li>
+                            <img src="Ressources/twitter_icon.png" alt="twitter_icon">
+                        </li>
+                        <li>
+                            <img src="Ressources/insta_icon.png" alt="insta_icon">
+                        </li>
+                    </ul>            
+            </article>
+        </footer>
+    </body>
+</html>
