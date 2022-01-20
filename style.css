@@ -400,6 +400,7 @@ a:link{
     margin-left: 300px;
     gap:10px;
     width: 80%;
+    margin-top: 100px;
 }
 
 #about_grid_block1, #about_grid_block2{
