@@ -744,6 +744,10 @@ form textarea{
     margin-left: 310px;
 }
 
+.contain:hover{
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 1532px){
     #footer_grid{
         display: none;
