@@ -726,6 +726,10 @@ form textarea{
     box-shadow: 1px 1px 2px gray;
 }
 
+#love h2{
+    margin-left: 310px;
+}
+
 @media screen and (max-width: 1080px){
     #header_block{
         width: 150%;
@@ -967,6 +971,14 @@ form textarea{
     #tailor_sav{
         width: 600px;
         height: 600px;
+    }
+
+    .compo_block{
+        margin-left: 25px;
+    }
+
+    #section_sav1{
+        margin-left: 0px;
     }
 }
 
