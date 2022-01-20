@@ -544,7 +544,7 @@ main h1{
     background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
     display: flex;
     justify-content: space-between;
-    margin-left: 20.6%;
+    margin-left: 300px;
 }
 
 #contact_us_p p{
@@ -598,7 +598,7 @@ main h1{
 
 #where_to_find{
     background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
-    margin-left: 20.6%;
+    margin-left: 300px;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
@@ -631,6 +631,7 @@ main h1{
 
 .section_sav{
     margin-left: 20.6%;
+    padding-right: 10px;
 }
 
 @keyframes apparition {
@@ -653,10 +654,12 @@ main h1{
     justify-content: space-between;
     padding-right: 10px;
     padding-left: 10px;
+    margin-left: 300px;
 }
 
 #section_sav1 p{
     width: 700px;
+    text-align: justify;
 }
 
 #franck{
