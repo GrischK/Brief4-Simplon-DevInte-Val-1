@@ -209,7 +209,6 @@ footer section{
 #footer_grid{
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-columns: repeat(3 200px);
     gap: 10px;
     margin: 10px;
 }
@@ -480,6 +479,7 @@ a:link{
     height:200px;
     width:200px;
     border:5px solid rgb(221, 221, 221);
+    border-radius: 50%;
 }
 
 #menu li img{
@@ -593,8 +593,11 @@ main h1{
 #map_halles{
     margin: 10px auto auto 42%;
     width: 450px;
+    height: 450px;
     border: 1px solid black;
     border-radius: 50%;
+    overflow:hidden;
+    background:none;
 }
 
 #where_to_find{
@@ -731,11 +734,125 @@ form textarea{
     margin-left: 310px;
 }
 
-@media screen and (max-width: 1080px){
-    #header_block{
-        width: 150%;
+@media screen and (max-width: 1532px){
+    #footer_grid{
+        display: none;
+    } 
+
+    #footer_nav, footer section{
+        width: 50%;
+    }
+
+    #main_section_items{
+        width: 100%;
+    }
+
+    #main_section_items h1{
+        margin: 50px 0px 50px 30%;
+    }
+
+    .price{
+        right: 10px;
+    }
+
+    .price_dark{
+        right: 10px;
+    }
+
+    #items_grid{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    main{
+        margin-left: 300px;
+    }
+
+    .item_card{
+        position: relative;
+    }
+
+    #cart{
         position: absolute;
-        margin-left: 26%;
+        right: 10px;
+    }
+
+    #header_block{
+        position: relative;
+    }
+
+    #article_grid{
+        margin-left: 0px;
+    }
+    .also{
+        margin-left: 0px;
+    }
+
+    #love h2{
+        margin-left: 10px;
+    }
+
+    #article_block2 button{
+        width: 100px;
+    }
+
+    #article_block2 p{
+        width: auto;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    #about_grid{
+        margin-left: 0px;
+        width: 100%;
+        grid-template-columns: repeat(2, 49%);
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    #main_about{
+        margin-top: 500px;
+    }
+
+    #p_block2{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1028px){
+    #items_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main{
+        margin-left: 0px;
+    }
+
+    #main_article{
+        margin-top: 400px;
+    }
+
+    #about_main_h1{
+        margin-left: 40%;
+    }
+
+    main section{
+        margin-left: 0px;
+    }
+
+    .also{
+        margin-left: 0px;
+    }
+
+    #header_block{
+        width: 100%;
+        position: absolute;
+        margin-left: 0px;
+        padding: 0px;
     }
 
     #menu li {
@@ -749,16 +866,21 @@ form textarea{
     }
 
     #lab{
-        width: 30px;
-        height: 30px;
-        margin: 4px;
         display: block;
-        z-index: 1;
+        z-index: 2;
     }
 
     #lab img{
-        width: 200px;
+        width: 120px;
         position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255, 0.5);
+        border-radius: 50%;
+    }
+
+    label {
+        margin-top: 10px;
+        margin-left: 45px;
     }
 
     #ch{
@@ -766,8 +888,8 @@ form textarea{
     }
 
     #logoh1 h1{
-    font-size: 70px;
-    margin-top: 200px;
+        font-size: 70px;
+        margin-top: 200px;
     }
 
     #logo{
@@ -786,6 +908,7 @@ form textarea{
         transform: translate(-1000px, 0);
         margin-left: -15px;
         transition: all 0.5s ease;
+        z-index: 1;
     }
 
     #ch:checked+nav{
@@ -793,292 +916,131 @@ form textarea{
         transition: all 0.5s ease;
     }
 
-    #items_grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        width: 79%;
-      }
-
-    .price {
-        position: absolute;
-        color: white;
-        font-weight: bold;
-        margin-left: 45%;
+    #main_section_items{
+        margin-top: 500px;
     }
-    
+
     footer{
-        margin: 150px 0px 0px 300px;
-        display: flex;
-        flex-direction: row;
-        background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
-        justify-content: space-around;
-        height: 680px;
-        align-items: center;
-        width: 130%;
-        }
-
-    #article_grid{
-        width: 900px;
-        margin-left: 350px;
+        margin-left: 0px;
+        height: auto;
     }
 
-    #footer_grid_pic2, #footer_grid_pic3, #footer_grid_pic4 {
-        display: none;
-        margin-left: 5%;
+    #main_section_items h1{
+        margin-left: 40%;
     }
 
-    header .nav_menu img{
-        width: 50px;
+    .nav_header{
+        background: linear-gradient(180deg, #EBEDEE 25%, rgba(253, 251, 251) 25%, rgba(253, 251, 251) 50%);
     }
 
     .mapouter{
         display: none;
     }
 
-    header #menu li{
-        margin-top: 150px ;
+    #article_grid{
+        margin-left: 0px;
     }
 
-    #footer_grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-columns: repeat(3 200px);
-        gap: 10px;
-        margin: 10px;
-      }
-
-    main{
-        margin-top: 450px;
-        width: 150%;
+    #article_block2{
+        width: 100%;
     }
 
-    #main_section_items{
-        margin-left: 10px;
-        width: 110%;
+    #article_block2 p{
+        width: 100%;
     }
 
-    header .nav_menu{
-        display: list-item;
-        margin-bottom: 50px;
+    #article_block2 ul {
+        width: auto;
     }
 
-    footer #footer_grid{
+    #article_block2 button{
+        width: 100px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #items_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #article_block2{
+        width: 100%;
+    }
+
+    #article_block2 p{
+        width: 100%;
+    }
+
+    #article_block2 ul {
+        width: auto;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .mapouter{
         display: none;
+    }
+
+    #header_block{
+        width: 100%;
+        position: absolute;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .item_block{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #footer_nav{
+    width: 300px;
+    }
+
+    #article_block2 button{
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    .nav_menu{
+        flex-direction: column;
     }
 
     #about_grid{
         display: flex;
         flex-direction: column;
-        width: 101%;
-        margin-top: 10px;
-        margin-left: 17.3%;
     }
 
     #about_grid p{
-        margin: 10px 10px 10px 10px;
+        padding-left: 10px;
     }
 
-    .tailor{
-        width: 500px;
-    }
-
-    #about_grid_block3{
-        margin-top: 50px;
-    }
-
-    #about_grid_block4{
-        margin-top: 240px;
+    #about_grid_block1 img{
+        display: none;
     }
 
     .about_marg10{
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
-    #article_block2 button{
-        width: 150px;
-    }
-
-    .button{
-        justify-content: space-around;
-    }   
-    
-    #love h2{
-        margin-left: 26%;
-    }
-
-    p{
-        font-size: 20px;
-    }
-
-    h2, h3{
-        font-size: 30px;
-    }
-
-    .contact{
-        text-align: center;
-    }
-
-    #contact_us_ul ul{
-    flex-direction: column;
-    }
-
-    #contact_us_ul li{
-    margin-bottom: 40px;
-    }
-
-    #contact_us_ul img{
-    width: 120px;
-    }
-
-    #finger{
-    margin-left: 57%;
-    }
-
-    #section_sav1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 850px;
-    }
-
-    #section_franck{
-        height: 1200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-right: 10px;
-        padding-left: 10px;
-        margin-left: 20.6%;
-        margin-bottom: 400px;
-    }
-
-    #section_franck p{
-        text-align: justify;
-    }
-
-    #franck p {
-        text-align: center;
-    }
-
-    form{
-        margin-left: 19%;
-    }
-
-    #contact_us_p{
-        margin-left: 350px;
-    }
-
-    #tailor_sav{
-        width: 600px;
-        height: 600px;
-    }
-
-    .compo_block{
-        margin-left: 25px;
-    }
-
-    #section_sav1{
-        margin-left: 0px;
-    }
-}
-
-@media screen and (max-width: 960px){
-
-    .nav_header{
-        position: fixed;
-        height: 100%;
-    }
-
-    #items_grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        width: 79%;
-      }
-
-    .price {
-        position: absolute;
-        color: white;
-        font-weight: bold;
-        margin-left: 45%;
-    }
-
-    .price_dark {
-        position: absolute;
-        color: black;
-        font-weight: bold;
-        margin-left: 45%;
-    }
-    
-    footer{
-        margin: 150px 100px 0px 250px;
-        display: flex;
-        flex-direction: row;
-        background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
-        justify-content: space-around;
-        height: 680px;
-        align-items: center;
-        width: 125%;
-        }
-
-    #footer_grid_pic2, #footer_grid_pic3, #footer_grid_pic4 {
+    #savoirfaire{
         display: none;
-        margin-left: 5%;
     }
 
-    #footer_grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-columns: repeat(3 200px);
-        gap: 10px;
-        margin: 10px;
+    #about_grid_block4{
+        margin-top:0px;
     }
 
-    #love h2{
-        margin-left: 26%;
-    }
-
-    p{
-        font-size: 20px;
-    }
-
-    h2, h3{
-        font-size: 30px;
-    }
-
-    .contact{
-        text-align: center;
-    }
-
-    #contact_us_ul ul{
-    flex-direction: column;
-    }
-
-    #contact_us_ul li{
-    margin-bottom: 40px;
-    }
-
-    #contact_us_ul img{
-    width: 120px;
-    }
-
-    #finger{
-    margin-left: 57%;
-    }
-
-    #section_sav1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 850px;
-    }
-
-    #franck p {
-        text-align: center;
-    }
-
-    form{
-        margin-left: 19%;
+    footer{
+        margin-top: 100px;
     }
 }
