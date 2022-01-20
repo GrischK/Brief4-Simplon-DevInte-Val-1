@@ -749,8 +749,22 @@ form textarea{
         display: none;
     } 
 
+    #section_sav1{
+        margin-left: 0px;
+    }
+
+    .section_sav{
+        margin-left: 0px;
+    }
+
     #footer_nav, footer section{
         width: 50%;
+    }
+
+    .section_sav p{
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #main_section_items{
@@ -828,8 +842,32 @@ form textarea{
         margin-top: 500px;
     }
 
-    #p_block2{
-        margin-right: 0px;
+    #contact_us_p, #contact_us_ul ul, #p_block2, #SAV, #where_to_find{
+        margin-left: 0px;
+    }
+
+    .h1_contact_page{
+        margin-left: 40%;
+    }
+
+    #finger{
+        margin-left: 50%;
+    }
+
+    #map_halles{
+        margin-left: 35%;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    #contact_us_ul li{
+        margin-right: 10px;
+    }
+
+    #contact_main{
+        margin-top: 500px;
     }
 }
 
@@ -840,6 +878,24 @@ form textarea{
 
     main{
         margin-left: 0px;
+    }
+
+    #sav_main{
+        margin-top: 400px;
+    }
+
+    #section_sav1{
+        margin-left: 0px;
+    }
+
+    .section_sav{
+        margin-left: 0px;
+    }
+
+    .section_sav p{
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #main_article{
@@ -866,6 +922,7 @@ form textarea{
     }
 
     #menu li {
+        padding: 20px;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -940,7 +997,8 @@ form textarea{
     }
 
     .nav_header{
-        background: linear-gradient(180deg, #EBEDEE 25%, rgba(253, 251, 251) 25%, rgba(253, 251, 251) 50%);
+        background-color: rgb(255, 255, 255, 0.5);
+        background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
     }
 
     .mapouter{
@@ -1053,4 +1111,60 @@ form textarea{
     footer{
         margin-top: 100px;
     }
+
+    #finger{
+        position: relative;
+    }
+
+    #map_halles {
+        margin: 220px 100px 0px -200px;
+        width: 50%;
+        height: auto;
+        position: absolute;
+    }
+
+    #footer_contact{
+        margin-top: 400px;
+    }
+
+    #sav_main{
+        margin-top: 400px;
+    }
+
+    #section_sav1{
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #form_contact{
+        width: 80%;
+    }
+
+    .section_sav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    #sav_h1_block h1{
+        text-align: center;
+    }
+
+    #sav_h1_block img, #sav_h1_block h1{
+        width: auto;
+    }
+
+    #form_contact{
+        margin-left: 0px;
+    }
+
+    .section_sav p{
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
 }
