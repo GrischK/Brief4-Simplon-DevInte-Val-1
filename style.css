@@ -748,6 +748,14 @@ form textarea{
     opacity: 0.8;
 }
 
+.nav_menu_bar{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+}
+
 @media screen and (max-width: 1532px){
     #footer_grid{
         display: none;
@@ -880,6 +888,11 @@ form textarea{
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .nav_menu_bar{
+        flex-direction: column;
+        margin-left: 150px;
+    }
+
     main{
         margin-left: 0px;
     }
@@ -1001,8 +1014,7 @@ form textarea{
     }
 
     .nav_header{
-        background-color: rgb(255, 255, 255, 0.5);
-        background: linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);
+        background: rgb(255, 255, 255) linear-gradient(180deg, #EBEDEE 2.93%, rgba(253, 251, 251, 0.00965869) 99.99%, rgba(253, 251, 251, 0) 100%);    
     }
 
     .mapouter{
