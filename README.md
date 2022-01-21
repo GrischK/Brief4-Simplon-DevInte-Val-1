@@ -91,7 +91,7 @@ Présentation orale :
 ## Répartition des tâches
 
 | Grischka | Samia|
-|:----------|:----------:|----------:|
+|:----------|----------:|
 |  Création du projet sur GitHub et gestion des collaborateurs | Création de maquettes | 
 | Rédaction du README  | Codage des pages : **Articles** et **A propos**|   
 |Création de tableau Trello pour la gestion de projet |Créations des maquettes Desktop |
