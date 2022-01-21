@@ -1094,6 +1094,19 @@ form textarea{
 
     #about_grid p{
         padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nav_menu p{
+        text-align: center;
+    }
+
+    #contact_us_ul ul{
+        flex-direction: column;
+    }
+
+    #contact_us_ul p{
+        text-align: center;
     }
 
     #about_grid_block1 img{
@@ -1121,10 +1134,14 @@ form textarea{
     }
 
     #map_halles {
-        margin: 220px 100px 0px -200px;
+        margin: 220px 100px 0px -230px;
         width: 50%;
         height: auto;
         position: absolute;
+    }
+
+    #section_sav1 p {
+        width: 100%;
     }
 
     #footer_contact{
@@ -1170,5 +1187,7 @@ form textarea{
         padding-right: 10px;
     }
 
-
+    #tailor_sav{
+        margin-left: 10px;
+    }
 }
