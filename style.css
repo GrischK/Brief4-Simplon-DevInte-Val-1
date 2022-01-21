@@ -1203,3 +1203,15 @@ form textarea{
         margin-left: 10px;
     }
 }
+
+@media screen and (max-width: 500px){
+    #lab img{
+        width: 50px;
+        margin-left: -35px;
+        margin-top: -5px;
+    }
+
+    #header_block{
+        height: 500px;
+    }
+}
